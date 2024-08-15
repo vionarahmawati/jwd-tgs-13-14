@@ -1,0 +1,151 @@
+<?php
+include_once("connection.php")
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap" rel="stylesheet">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <title>Wisata Lembang Bandung</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="img-header">
+            <div class="brand-container"> 
+                <h1>WELCOME</h1>
+                <h2>WISATA DAERAH LEMBANG BANDUNG</h2>
+
+                <img src="images/logo park zoo.png" alt="" />
+            </div><!-- end brand-container -->
+
+            <img src="images/lembang Animal.jpg" alt="animal">
+            <img src="images/Lembang Cafe.jpg" alt="cafe">
+            <img src="images/lembang kebun.jpg" alt="kebun">
+            <img src="images/lembang tiket.jpg" alt="tiket">
+            <img src="images/lembang view.jpg" alt="kkebun teh">
+            <img src="images/malino_pool.jpg" alt="pool">
+            <img src="images/malino_puncak.jpg" alt="puncak">
+            <img src="images/lembang wahana.jpg" alt="wahana">
+            <img src="images/malino_sun_set.jpg" alt="sunset">
+            <img src="images/ragam lembang.jpg" alt="lembang">
+
+        </div> 
+        <!-- end img-header -->
+        
+        <div class="menu-header">
+            <a href="https://taplink.cc/vionarhmwti">Beranda</a>
+            <a href="https://vionarahmawati.taplink.ws">Daftar Paket Wisata</a>
+            <a href="https://vionarahmawati.taplink.ws">Modifikasi Pesanan</a>
+        </div> <!-- end menu-header  -->
+
+        <div class="konten-pawiwisata">
+            <div class="info-container">
+
+
+                <div class="paket-container">
+                    <img src="images/paket renang.jpg" alt="paket renang">
+                    <h4>13 Juli 2024</h4>
+                    <h3>Paket Swimming Pool Wahana Dan Atraksi Di Lembang Park Zoo</h3>
+                    <a href="">Daftar</a>
+                </div><!-- end paket-header  -->
+    
+                <div class="paket-container">
+                    <img src="images/wahana.png" alt="paket kuliner">
+                    <h4>17 Agustus 2024</h4>
+                    <h3>Paket kuliner Khas Bandung Yang Berada Di Lembang Park Zoo</h3>
+                    <a href="">Daftar</a>
+                </div><!-- end paket-header  -->
+    
+                <div class="video-container">
+                    <h3> Paket Wisata 1</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2BWy5AS6FGE?si=54tzVV13JEKW6TRJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <!-- end video-header  -->
+            </div><!-- end info-container  -->
+
+        </div><!-- end konten-pawiwisata  -->
+    
+        <div class="promosi-pariwisata">
+            <div class="info-container">
+                <div class="paket-container">
+                    <img src="images/paket renang.jpg" alt="paket renang">
+                    <h4>13 Juli 2024</h4>
+                    <h3>Paket Swimming Pool Wahana Dan Atraksi Di Lembang Park Zoo</h3>
+                    <a href="">Daftar</a>
+                </div><!-- end paket-header  -->
+    
+                <div class="paket-container">
+                    <img src="images/wahana.png" alt="paket kuliner">
+                    <h4>17 Agustus 2024</h4>
+                    <h3>Paket kuliner Khas Bandung Yang Berada Di Lembang Park Zoo</h3>
+                    <a href="">Daftar</a>
+                </div><!-- end paket-header  -->
+    
+                <div class="video-container">
+                    <h3> Paket Wisata 2</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2BWy5AS6FGE?si=54tzVV13JEKW6TRJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <!-- end video-header  -->
+            </div><!-- end info-container  -->
+
+        </div> <!-- end promosi-pariwisata  -->
+
+        <div class="form-container">
+            <h2>Form Pemesanan Paket Wisata</h2>
+            <form action="" method="post">
+               <label for="nama_pemesanan">Nama Pemesanan</label>
+               <input type="text" name="nama_pemesanan" id="nama_pemesanan"/>
+
+               <label for="No_Tlp">No Tlp/Hp</label>
+               <input type="text" name="No_Tlp" id="No_Tlp"/>
+
+               <label for="tanggal_pesan">Tanggal Pesan</label>
+               <input type="date" name="tanggal_pesan" id="tanggal_pesan"/>
+
+               <label for="jumlah_hari">Waktu Pelaksanaan Perjalanan</label>
+               <input type="number" name="jumlah_hari" id="jumlah_hari"/>
+
+               <label for="">Pelayanan Paket Perjalanan</label>
+
+               <div class="item-layanan">
+                <label for="Layanan_Penginapan" >Penginapan</label>
+                <input type="checkbox" name="Layanan Penginapan" id="Layanan_Penginapan" >
+               </div>
+
+               <div class="item-layanan">
+                <label for="Layanan_Transportasi" >Transportasi</label>
+                <input type="checkbox" name="Layanan Transportasi" id="Layanan_Transportasi" >
+               </div>
+
+               <div class="item-layanan">
+                <label for="Layanan_Makanan" >Service Makanan</label>
+                <input type="checkbox" name="Layanan_Makanan" id="Layanan_Makanan" >
+               </div>
+
+               <label for="Jumlah Peserta">Jumlah Peserta </label>
+               <input type="number" name="Jumlah Peserta" id="Jumlah Peserta"/>
+
+               <label for="Harga_Paket">Harga Paket Perjalanan</label>
+               <input type="text" name="Harga_Paket" id="Harga_Paket"/>
+
+               <label for="Jumlah_Tagihan">Jumlah Tagihan</label>
+               <input type="text" name="Jumlah Tagihan" id="Jumlah Tagihan"/>
+
+               <div class="btn-container">
+                <input type="submit" value="simpan">
+
+                <button id="btn-hitung" >Hitung</button>
+
+                <button id="btn-reset" >Reset</button>
+               </div>
+            </form>
+
+        </div><!-- end form-container  -->
+    </div> <!-- end main-container -->
+</body>
+</html>

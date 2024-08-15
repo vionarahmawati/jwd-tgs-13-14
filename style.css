@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+.main-container {
+    background-color: khaki;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.img-header {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.img-header img {
+    width: 20%;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.menu-header a {
+    flex: 1;
+    text-decoration: none;
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+    border: 1px solid rgb(248, 0, 165);
+    text-align: center;
+}
+
+.menu-header a:hover {
+    background-color: paleturquoise;
+    color: black;
+}
+
+.info-container {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.paket-container {
+    width: 350px;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.paket-container a {
+    display: block;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    background-color: palevioletred;
+    color: black;
+    padding: 5px 8px;
+    margin-top: 10px;
+}
+
+.paket-container a:hover {
+    background-color: turquoise;
+}
+
+.paket-container h4 {
+    color: rgb(0, 0, 0);
+}
+
+.paket-container img {
+    width: 100%;
+}
+
+.promosi-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-container {
+    width: 350px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.video-container h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: auto;
+}
+
+.brand-container {
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.brand-container img {
+    width: 60%;
+}
+
+.brand-container h1 {
+    color: aliceblue;
+    font-size: 3.5vw;
+    text-shadow: 2px 2px 8px #000;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.brand-container h2 {
+    color: aliceblue;
+    font-size: 2.5vw;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.item-layanan {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-layanan label {
+    width: 100%;
+}
+
+input[type="text"], 
+input[type="date"], 
+input[type="number"] {
+    width: 98%;
+    padding: 8px 5px;
+    margin-bottom: 15px ;
+}
+
+input [type="checkbox"] {
+    width: 15px;
+}
+
+.layanan-container {
+    margin-bottom: 15px;
+}
